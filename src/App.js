@@ -1,7 +1,7 @@
 import Home from "./components/Home.js"
-import Answers from "./components/Answers.js"
 import { Route, Routes } from "react-router-dom";
 import './App.css';
+import Answers from "./components/Answers.js";
 
 
 
