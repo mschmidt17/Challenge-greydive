@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
+import "./CSS/answers.css"
 import { Link } from 'react-router-dom';
 
 
@@ -21,7 +22,7 @@ function Answers() {
     
     return (
         <div className='answers-container'>
-                <h1> RESPUESTAS </h1>
+                <h1 className='answers-title'> RESPUESTAS </h1>
 
                 <table>
                     <thead>
@@ -45,7 +46,7 @@ function Answers() {
                 </table>
 
                 <Link to='/'>
-                    <button>Completar otro formulario</button>
+                    <button className='btn-formulario'>Completar otro formulario</button>
                 </Link>
         </div>
     );
