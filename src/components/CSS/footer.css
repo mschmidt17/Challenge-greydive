@@ -1,0 +1,40 @@
+.row-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    padding: 0.5%;
+}
+
+#back-to-top{
+    background-color: white;
+    height: 35px;
+    border-radius: 100px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    text-decoration: none;
+}
+
+#back-to-top:hover{
+    background: linear-gradient(135deg,#CB0457, #9c0583);
+    color: white;
+}
+
+.copyright{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.arriba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}

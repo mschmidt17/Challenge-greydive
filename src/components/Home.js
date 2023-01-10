@@ -7,7 +7,9 @@ import { saveInDB } from "../Firebase.js";
 import {validate} from "./validate.js";
 import swal from 'sweetalert';
 import {BsArrowDownShort, BsArrowUpShort, BsCheck} from "react-icons/bs";
+import Footer from './Footer.js';
 import "./CSS/home.css"
+
 
 function Home() {
     const navigate = useNavigate()
@@ -125,7 +127,7 @@ function Home() {
         <div className='home-container'>
             <img src="https://uploads-ssl.webflow.com/612fcc289671bc539ecd004e/612ff6936ef1a98f2a9b29cf_logo-greydive-gris.png" className="img-grey" alt="greydive" />
             
-            <div className='question'> 
+            <div  id="top" className='question'> 
                 <button className='btn-formulario' onClick={(e) => handleClickScroll(e, "full_name")}> Completar formulario </button>
             </div>
 
@@ -224,6 +226,7 @@ function Home() {
                 )})
                 : null }
             </form>
+            <Footer/>
         </div>
   );
 }
