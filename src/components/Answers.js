@@ -48,6 +48,8 @@ function Answers() {
                 <Link to='/'>
                     <button className='btn-formulario'>Completar otro formulario</button>
                 </Link>
+
+                <img src="https://uploads-ssl.webflow.com/612fcc289671bc539ecd004e/612ff6936ef1a98f2a9b29cf_logo-greydive-gris.png" className="icon-grey" alt="greydive" />
         </div>
     );
 }
