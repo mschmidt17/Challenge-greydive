@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
+import { Link } from 'react-router-dom';
+
 
 
 function Answers() {
@@ -33,14 +35,18 @@ function Answers() {
                     <tbody>
                         {datos.map(e =>
                             <tr key={e.uuid}>
-                                <td className='columna-contribucion'> {e.full_name} </td>
-                                <td className='columna-contribucion'> {e.birth_date} </td>
-                                <td className='columna-contribucion'> {e.email} </td>
-                                <td className='columna-contribucion'> {e.country_of_origin} </td>
+                                <td className='columna-respuesta'> {e.full_name} </td>
+                                <td className='columna-respuesta'> {e.birth_date} </td>
+                                <td className='columna-respuesta'> {e.email} </td>
+                                <td className='columna-respuesta'> {e.country_of_origin} </td>
                             </tr>
                         )}
                     </tbody>
                 </table>
+
+                <Link to='/'>
+                    <button>Completar otro formulario</button>
+                </Link>
         </div>
     );
 }
