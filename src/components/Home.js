@@ -51,7 +51,6 @@ function Home() {
             ...input,
             country_of_origin: e.target.value,
         });
-        setErrors(validate({...input, [e.target.name]: e.target.value}));
     };
     
     const handleCheckbox = (e) => {
@@ -80,7 +79,7 @@ function Home() {
                 icon: "success",
                 buttons: {
                     cancel: {
-                    text: "Completar otro",
+                    text: "OK",
                     value: null,
                     visible: true,
                     className: "btn-modal-close",
@@ -145,7 +144,6 @@ function Home() {
                                 </select>
                                 <br></br>
                                 <div className='bottom-input-container'>
-                                    {errors.country_of_origin && ( <span className='error'>{errors.country_of_origin}</span>)} 
                                     <button className='button' onClick={(e) => handleClickScroll(e, "terms_and_conditions")}> Aceptar <BsCheck/> </button>
                                 
                                     <div className='buttons-next-back'>

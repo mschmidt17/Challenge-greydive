@@ -74,11 +74,10 @@
     border-bottom: 2px solid white;
     background-color: transparent;
     width: 44rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-top: 2%;
     color: rgba(255, 255, 255, 0.856);
     border-radius: 5px;
-
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
@@ -199,4 +198,66 @@ input[type="checkbox"] {
 
 .swal-button:focus {
     box-shadow: none;
+}
+
+
+
+/*---------------RESPONSIVE--------------*/
+@media (max-width: 500px) {
+    .img-grey{
+        width: 16rem;
+    }
+
+    .btn-formulario{
+        width: 13rem;
+        height: 2.6rem;
+        font-size: 1.2rem;
+        border-radius: 6px;
+    }
+
+    .question{
+        height: 32rem;
+    }
+
+    .label {
+        font-size: 1.2rem;
+        margin: 2% 0 1% 0;
+    }
+    
+    .label-checkbox{
+        font-size: 1.1rem;
+    }
+
+    .inputCreate{
+        width: 20rem;
+        font-size: 1.1rem;
+    }
+
+    .checkbox-container{
+        width: 20rem;
+        margin-top: 44%;
+    }
+    
+    .submit-container{
+        width: 20rem;
+    }
+    
+    .bottom-input-container{
+        width: 20rem;
+    }
+
+    .buttons-next-back{
+        margin-top: 50%;
+    }
+    
+}
+
+@media (max-width: 840px) {
+    .question{
+        height: 60rem;
+    }
+
+    .card-container{
+        margin-bottom: 14rem;
+    }
 }

@@ -28,9 +28,9 @@ function Answers() {
                     <thead>
                         <tr className='table-header'>
                             <th className='columna-header'>Nombre</th>
-                            <th className='columna-header'>Fecha de nacimiento</th>
+                            <th className='columna-header-small'>Fecha de nacimiento</th>
                             <th className='columna-header'>Email</th>
-                            <th className='columna-header'>Pais</th>
+                            <th className='columna-header-small'>Pais</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,7 +46,7 @@ function Answers() {
                 </table>
 
                 <Link to='/'>
-                    <button className='btn-formulario'>Completar otro formulario</button>
+                    <button className='btn-formulario'>Completar formulario</button>
                 </Link>
 
                 <img src="https://uploads-ssl.webflow.com/612fcc289671bc539ecd004e/612ff6936ef1a98f2a9b29cf_logo-greydive-gris.png" className="icon-grey" alt="greydive" />

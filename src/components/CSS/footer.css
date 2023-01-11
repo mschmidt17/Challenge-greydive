@@ -38,3 +38,14 @@
     justify-content: center;
     width: 40%;
 }
+
+/*---------------RESPONSIVE--------------*/
+@media (max-width: 500px) {
+    .copyright{
+        width: 80%;
+    }
+    
+    .arriba{
+        width: 20%;
+    }
+}

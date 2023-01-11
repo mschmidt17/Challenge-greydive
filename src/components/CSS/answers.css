@@ -19,19 +19,17 @@ table{
     color: white;
 }
 
-
-.columna-header{
+.columna-header, .columna-header-small{
     padding: 1%;
     width: 16rem;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
     border-radius: 5px;
     color: white;
 }
 
 .columna-respuesta{
     padding: 1.5%;
-    font-weight: bolder;
     color: white;
     border-bottom: 1px solid #CB0457;
 }
@@ -39,5 +37,56 @@ table{
 .icon-grey{
     width: 200px;
     margin-top: 10%;
+}
+
+/*---------------RESPONSIVE--------------*/
+@media (max-width: 840px) {
+    .answers-title{
+        margin-top: 12%;
+    }
+
+    .columna-header{
+        width: 16rem;
+    }
+
+    .columna-header-small{
+        width: 8.2rem;
+    }
+
+    .columna-respuesta{
+        font-size: 1.1rem;
+    }
+        
+    .icon-grey{
+        width: 14rem;
+        margin-top: 60%;
+    }
 
 }
+
+@media (max-width: 500px) {
+    table{
+        margin: 10% 0;
+    }
+
+    .answers-title{
+        margin-top: 16%;
+    }
+
+    .columna-header{
+        width: 7rem;
+        font-size: 0.6rem;
+    }
+
+    .columna-header-small{
+        width: 4rem;
+        font-size: 0.6rem;
+    }
+
+    .columna-respuesta{
+        font-size: 0.6rem;
+        overflow: hidden;
+        padding: 2%;
+    }
+}
+
