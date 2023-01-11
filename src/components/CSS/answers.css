@@ -3,11 +3,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .answers-title{
     color: white;
     margin-top: 6%;
+    letter-spacing: 1px;
 }
 
 table{
@@ -59,34 +61,34 @@ table{
         
     .icon-grey{
         width: 14rem;
-        margin-top: 60%;
+        margin-top: 50%;
     }
 
 }
 
 @media (max-width: 500px) {
     table{
-        margin: 10% 0;
+        margin: 8% 0;
     }
 
     .answers-title{
-        margin-top: 16%;
+        margin-top: 14%;
     }
 
     .columna-header{
-        width: 7rem;
+        width: 6.9rem;
         font-size: 0.6rem;
     }
 
     .columna-header-small{
-        width: 4rem;
+        width: 3.9rem;
         font-size: 0.6rem;
     }
 
     .columna-respuesta{
         font-size: 0.6rem;
         overflow: hidden;
-        padding: 2%;
+        padding: 2.2% 0;
     }
 }
 

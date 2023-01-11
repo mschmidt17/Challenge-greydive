@@ -30,6 +30,7 @@
     align-items: flex-end;
     justify-content: flex-end;
     width: 60%;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .arriba{
@@ -42,10 +43,10 @@
 /*---------------RESPONSIVE--------------*/
 @media (max-width: 500px) {
     .copyright{
-        width: 80%;
+        width: 81%;
     }
     
     .arriba{
-        width: 20%;
+        width: 19%;
     }
 }

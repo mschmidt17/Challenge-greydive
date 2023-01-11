@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .img-grey{
@@ -22,6 +23,7 @@
     border-radius: 4px;
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.336);
     margin-top: 18%;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .btn-formulario:hover{
@@ -105,6 +107,7 @@ input[type="checkbox"] {
     font-size: 1.2rem;
     display: flex;
     align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .bottom-input-container{
@@ -203,20 +206,35 @@ input[type="checkbox"] {
 
 
 /*---------------RESPONSIVE--------------*/
+
+@media (max-width: 840px) {
+    .question{
+        height: 60rem;
+    }
+    
+    .card-container{
+        margin-bottom: 14rem;
+    }
+}
+
 @media (max-width: 500px) {
     .img-grey{
         width: 16rem;
     }
 
+    .card-container{
+        margin-bottom: 8rem;
+    }
+
     .btn-formulario{
-        width: 13rem;
-        height: 2.6rem;
+        width: 14rem;
+        height: 3rem;
         font-size: 1.2rem;
         border-radius: 6px;
     }
 
     .question{
-        height: 32rem;
+        height: 46rem;
     }
 
     .label {
@@ -239,7 +257,7 @@ input[type="checkbox"] {
     }
     
     .submit-container{
-        width: 20rem;
+        width: 21.2rem;
     }
     
     .bottom-input-container{
@@ -250,14 +268,4 @@ input[type="checkbox"] {
         margin-top: 50%;
     }
     
-}
-
-@media (max-width: 840px) {
-    .question{
-        height: 60rem;
-    }
-
-    .card-container{
-        margin-bottom: 14rem;
-    }
 }
