@@ -68,11 +68,11 @@ table{
 
 @media (max-width: 500px) {
     table{
-        margin: 8% 0;
+        margin: 6% 0;
     }
 
     .answers-title{
-        margin-top: 14%;
+        margin-top: 10%;
     }
 
     .columna-header{
@@ -81,7 +81,7 @@ table{
     }
 
     .columna-header-small{
-        width: 3.9rem;
+        width: 4rem;
         font-size: 0.6rem;
     }
 

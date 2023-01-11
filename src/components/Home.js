@@ -163,7 +163,7 @@ function Home() {
                             </div>
                         :
                             e.type === "checkbox" ?
-                            <div>
+                            <div className='checkbox'>
                                 <div id={e.name} className="checkbox-container">
                                     <label className="label-checkbox"> {e.label} </label>
                                     <input

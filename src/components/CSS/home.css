@@ -44,6 +44,13 @@
     height: 50rem;
 }
 
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .checkbox-container{
     display: flex;
     align-items: center;
@@ -223,18 +230,18 @@ input[type="checkbox"] {
     }
 
     .card-container{
-        margin-bottom: 8rem;
+        margin-bottom: 6rem;
     }
 
     .btn-formulario{
         width: 14rem;
-        height: 3rem;
+        height: 3.2rem;
         font-size: 1.2rem;
         border-radius: 6px;
     }
 
     .question{
-        height: 46rem;
+        height: 50rem;
     }
 
     .label {
@@ -243,7 +250,7 @@ input[type="checkbox"] {
     }
     
     .label-checkbox{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .inputCreate{
